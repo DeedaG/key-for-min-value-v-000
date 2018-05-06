@@ -2,8 +2,6 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  if name_hash.sort.shift
-    else
-      nil
-  end
+  name_hash.sort.shift
+
 end
