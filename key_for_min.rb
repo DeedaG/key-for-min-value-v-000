@@ -3,6 +3,6 @@
 
 def key_for_min_value(name_hash, i)
   name_hash.each do |key, value|
-    key.keep_if(value[i] < value[i + 1])
+    key.keep_if(value[index] < value[index] + 1])
   end
 end
