@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   if name_hash.sort.shift
-    puts "key"
+    puts "key1"
     else
       nil
   end
