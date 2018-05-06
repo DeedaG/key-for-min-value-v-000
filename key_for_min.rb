@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash, index)
   name_hash.select do |key, value|
-    if value << 
-  
+    if key,value[i] <<key,value[i+1] 
+
       key
     else
       nil
